@@ -14,7 +14,7 @@ import be.plantenshop.services.SoortService;
 public class SoortController {
 	private final SoortService soortService;
 	
-	private static final String SOORT_VIEW = "winkel/soort";
+	private static final String SOORT_VIEW = "winkel/soortdetails";
 	
 	@Autowired
 	SoortController(SoortService soortService) {
